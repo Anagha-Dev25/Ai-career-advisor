@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # ---------------------- LOAD MODEL ----------------------
-model = pickle.load(open("../model/career_model.pkl", "rb"))
-le = pickle.load(open("../model/label_encoder.pkl", "rb"))
+model = pickle.load(open("model/career_model.pkl", "rb"))
+le = pickle.load(open("model/label_encoder.pkl", "rb"))
 
 # ---------------------- PAGE CONFIG ----------------------
 st.set_page_config(page_title="AI Career Advisor", page_icon="🚀", layout="centered")
